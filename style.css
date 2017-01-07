@@ -23,7 +23,8 @@
 }
 #mini-cart .subtotal .amount {
   display: inline-block;
-  width: 70px;
+  width: 85px;
+  padding: 0 10px;
 }
 #mini-cart table tr, #mini-cart .count {
   border-bottom: 1px solid #ccc;
