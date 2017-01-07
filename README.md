@@ -7,6 +7,8 @@ This is implemented using templating from underscore.js & jquery so make sure th
 
 2. Javascript for mini-cart
 
+3. CSS for styling (edit styling as per requirements)
+
 Add template snippet and javascript on theme.liquid
 
-3. CSS for styling (edit styling as per requirements)
+Add CSS on themes .scss/.css
