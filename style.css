@@ -1,0 +1,51 @@
+#mini-cart {
+  width: 350px;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  z-index: 999;
+  background: #f5f5f5;
+  display: none;
+  padding: 3px;
+}
+
+#mini-cart .td-image {
+  width: 60px;
+}
+
+#mini-cart .count, #mini-cart .subtotal, #mini-cart .buttons {
+  padding: 10px;
+}
+
+#mini-cart .subtotal {
+  text-align: right;
+  padding-right: 5px;
+}
+#mini-cart .subtotal .amount {
+  display: inline-block;
+  width: 70px;
+}
+#mini-cart table tr, #mini-cart .count {
+  border-bottom: 1px solid #ccc;
+}
+#mini-cart table td {
+  border: none;
+}
+
+#mini-cart a {
+  padding: 5px;
+}
+#mini-cart a.checkout {
+  float: right;
+  background: #000;
+  color: #fff;
+}
+
+#mini-cart .td-price {
+  width: 85px;
+}
+
+#mini-cart .item-price {
+  float: right;
+  margin-right: 5px;
+}

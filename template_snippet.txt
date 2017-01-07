@@ -1,0 +1,36 @@
+{% raw %}
+<script type="tmpl" id='minicart-template'>
+  <div class="count">
+    <%= cart.item_count %> item(s) in your cart
+  </div>
+  
+  <table>
+  <% _.each(cart.items, function(item) { %>
+    <tr>
+      <td class="td-image">
+        <img src="<%= item.image %>" />
+      </td>
+      <td>
+        <div><%- item.title %></div>
+        <div>Qty: <%= item.quantity %></div>
+      </td>
+      <td class="td-price">
+        <span class="item-price price"><%= item.price %></span>
+      </td>
+    </tr>	
+  <% }); %>
+  </table>
+  
+  <div class="subtotal">
+    <strong>Subtotal </strong>
+    <strong class="amount price"><%= cart.total_price %></strong>
+  </div>
+  
+  <div class="buttons">
+    <a href="/cart">View Cart</a>
+    <a class="checkout" href="/checkout">Checkout</a>
+  </div>
+</script>
+{% endraw %}
+
+<div id="mini-cart"></div>
