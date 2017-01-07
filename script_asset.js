@@ -1,7 +1,8 @@
 $(function() {
   //console.log('ready');
   
-  $('#cart').on('mouseenter', function() {
+  // update selector to corresponding cart menu
+  $('.cart-count').on('mouseenter', function() {
     $.getJSON('/cart.js', function(data) {
       
       // run template view
